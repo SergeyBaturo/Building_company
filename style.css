@@ -1,0 +1,743 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    max-width: 940px;
+    margin: auto;
+}
+
+/* Header */
+
+header {
+    background-color: #323232;
+    height: 60px;
+}
+
+.logo-div-first {
+    display: inline-block;
+}
+
+.logo {
+    width: 20px;
+    height: 23px;
+    padding-top: 17px;
+    padding-right: 8px;
+}
+
+.logo-text {
+    color: #EDEDED;
+    width: 68px;
+    display: inline-block;
+    font-size: 24px;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+nav p {
+    color: #EDEDED;
+    border-left: 1px solid #4D4D4D;
+    border-right: 1px solid #4D4D4D;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: -5px;
+    display: inline-block;
+    height: 40px;
+    vertical-align: top;
+    font-size: 15px;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    transition: .7s;
+}
+
+nav p:hover {
+    background-color: #000000;
+    color: #C7AA8B;
+}
+
+.first-p {
+    margin-left: 30px;
+}
+
+.nav-socials{
+    height: 60px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+}
+
+.nav-socials img {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding-top: 20px;
+}
+
+.WF {
+    display: inline-block;
+    vertical-align: top;
+    border-left: 1px solid #4D4D4D;
+    border-right: 1px solid #4D4D4D;
+    height: 60px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: -5px;
+    transition: .7s;
+}
+
+.WF:hover {
+    background-color: #000000;
+}
+
+.WT {
+    display: inline-block;
+    vertical-align: top;
+    border-left: 1px solid #4D4D4D;
+    border-right: 1px solid #4D4D4D;
+    height: 60px;
+    padding-right: 30px;
+    padding-left: 30px;
+    transition: .7s;
+}
+
+.WT:hover {
+    background-color: #000000;
+}
+
+nav .menu {
+    width: 22px;
+    height: 25px;
+    padding-top: 15px;
+    display: none;
+    text-align: right;
+}
+
+/* Main */
+
+/* Carousel */
+
+.carousel {
+    background-image: url(images/bridge-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 116px;
+}
+
+.carousel h1 {
+    font-family: 'Roboto Condensed';
+    font-size: 79px;
+    font-weight: 400;
+    color: white;
+    width: 639px;
+    text-align: center;
+    margin: 0px 150.5px;
+    padding-top: 69px;
+    padding-bottom: 56px;
+}
+
+.carousel p {
+    font-family: 'Vollkorn';
+    font-weight: 400;
+    font-size: 18px;
+    color: #E2E0DE;
+    padding-bottom: 49px;
+}
+
+.our_works {
+    color: white;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 16px;
+    border: white solid 2px;
+    text-decoration: none;
+    padding: 10px 17px;
+}
+
+/* Main Info */
+
+.main-info {
+    background-color: #C7AA8B;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    padding-bottom: 83px;
+}
+
+.research .main-info-first {
+    color: #BA9F83;
+    font-size: 16px;
+    margin-bottom: 6px;
+    padding-top: 58px;
+    width: 299px;
+    text-align: left;
+}
+
+.build .main-info-second {
+    color: #BA9F83;
+    font-size: 16px;
+    margin-bottom: 6px;
+    padding-top: 58px;
+    width: 299px;
+    text-align: left;
+}
+
+.optimaze .main-info-third {
+    color: #BA9F83;
+    font-size: 16px;
+    margin-bottom: 6px;
+    padding-top: 58px;
+    width: 299px;
+    text-align: left;
+}
+
+.research {
+    width: 296px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 22px;
+    transition: .7s;
+}
+
+.research:hover{
+    transform: translateY(-10px);
+}
+
+.research h3 {
+    color: #4D4D4D;
+    font-size: 20px;
+    margin-bottom: 25px;
+    padding-top: 22px;
+    border-top: 1px solid #B49A7F;
+}
+
+.research p {
+    color: #4D4D4D;
+    font-size: 14px;
+    padding-top: 35px;
+}
+
+.build {
+    width: 296px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 22px;
+    transition: .7s;
+}
+
+.build:hover {
+    transform: translateY(-10px);
+}
+
+.build h3 {
+    color: #4D4D4D;
+    font-size: 20px;
+    margin-bottom: 25px;
+    padding-top: 22px;
+    border-top: 1px solid #B49A7F;
+}
+
+.build p {
+    color: #4D4D4D;
+    font-size: 14px;
+    padding-top: 40px;
+}
+
+.optimaze {
+    width: 296px;
+    text-align: center;
+    display: inline-block;
+    transition: .7s;
+}
+
+.optimaze:hover{
+    transform: translateY(-10px);
+}
+
+.optimaze h3 {
+    color: #4D4D4D;
+    font-size: 20px;
+    margin-bottom: 25px;
+    padding-top: 22px;
+    border-top: 1px solid #B49A7F;
+}
+
+.optimaze p {
+    color: #4D4D4D;
+    font-size: 14px;
+    padding-top: 48px;
+}
+
+/* Second Main Picture */
+
+.second-main-img {
+    background-image: url(images/mountains-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    text-align: left;
+}
+
+.second-main-img h2 {
+    font-size: 47px;
+    color: #C7AA8B;
+    padding-top: 127px;
+    padding-bottom: 157px;
+}
+
+/* Our Team */
+
+.people {
+    text-align: right;
+    margin-bottom: 94px;
+}
+
+.our-team {
+    background-color: #fff;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.our-team h2 {
+    color: #4D4D4D;
+    margin-right: 113px;
+    text-align: left;
+}
+
+/* Peter */
+
+.peter {
+    margin-right: 20px;
+    width: 200px;
+    display: inline-block;
+}
+
+.peter img {
+    width: 200px;
+}
+
+.peter h5 {
+    color: #4D4D4D;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.peter p {
+    color: #4D4D4D;
+    font-family: "Vollkorn";
+    font-weight: 400;
+    font-size: 12px;
+    text-align: left;
+}
+
+.socials {
+    padding-top: 11px;
+    text-align: left;
+}
+
+.peter .socials .facebook {
+    width: 20px;
+    height: 20px;
+    padding-top: 0px;
+    padding-right: 10px;
+}
+
+.peter .socials .twiter {
+    width: 22px;
+    height: 22px;
+    padding-top: 0px;
+    padding-right: 10px;
+}
+
+.peter .socials .in {
+    width: 21px;
+    height: 21px;
+    padding-top: 0px;
+}
+
+/* Robert */
+
+.robert {
+    width: 200px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.robert img {
+    width: 200px;
+}
+
+.robert h5 {
+    color: #4D4D4D;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.robert p {
+    color: #4D4D4D;
+    font-family: "Vollkorn";
+    font-weight: 400;
+    font-size: 12px;
+    text-align: left;
+}
+
+.robert .socials .facebook {
+    width: 20px;
+    height: 20px;
+    padding-top: 0px;
+    padding-right: 10px;
+}
+
+.robert .socials .twiter {
+    width: 22px;
+    height: 22px;
+    padding-top: 0px;
+    padding-right: 10px;
+}
+
+.robert .socials .in {
+    width: 21px;
+    height: 21px;
+    padding-top: 0px;
+}
+
+/* Dina */
+
+.dina {
+    width: 200px;
+    display: inline-block;
+}
+
+.dina img {
+    width: 200px;
+}
+
+.dina h5 {
+    color: #4D4D4D;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.dina p {
+    color: #4D4D4D;
+    font-family: "Vollkorn";
+    font-weight: 400;
+    font-size: 12px;
+    text-align: left;
+}
+
+.dina .socials .twiter {
+    width: 22px;
+    height: 22px;
+    padding-top: 0px;
+    padding-right: 10px;
+}
+
+.dina .socials .be {
+    width: 22px;
+    height: 22px;
+    padding-top: 0px;
+    padding-right: 10px;
+}
+
+.dina .socials .blackBall {
+    width: 22px;
+    height: 22px;
+    padding-top: 0px;
+    padding-right: 10px;
+}
+
+.dina .socials .inst {
+    width: 20px;
+    height: 20px;
+    padding-top: 0px;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background-color: #323232;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-div-second {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo-div-second p {
+    font-size: 14px;
+    color: #858585;
+    display: inline-block;
+    margin-left: 8px;
+    padding-top: 68px;
+    padding-bottom: 66px;
+}
+
+footer a {
+    font-size: 16px;
+    width: 152px;
+    height: 20px;
+    color: #C7AA8B;
+    border: 1px solid #C7AA8B;
+    background-color: #373737;
+    text-decoration: none;
+    padding: 10px 74px;
+    margin-top: 57px;
+    transition: .7s;
+}
+
+footer a:hover {
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #000;
+}
+
+footer .adres {
+    font-size: 13px;
+    color: #858585;
+    padding-top: 68px;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+
+    .research{
+        width: 290px;
+    }
+
+    .build {
+        width: 290px;
+    }
+
+    .optimaze {
+        width: 290px;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel h1 {
+        font-size: 64px;
+        margin: auto;
+        width: auto;
+    }
+
+    .research {
+        width: 213px;
+    }
+
+    .build {
+        width: 213px;
+    }
+
+    .optimaze {
+        width: 213px;
+    }
+}
+
+@media (max-width: 425px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav .menu {
+        display: inline-block;
+    }
+
+    nav p {
+        display: none;
+    }
+
+    .nav-socials {
+        display: none;
+    }
+
+    .carousel h1 {
+        font-size: 45px;
+        padding-bottom: 25px;
+    }
+
+    .research {
+        width: auto;
+        margin-right: 0px;
+    }
+
+    .build {
+        width: auto;
+        margin-right: 0px;
+    }
+
+    .optimaze {
+        width: auto;
+        margin-right: 0px;
+    }
+
+    .second-main-img h2 {
+        font-size: 36px;
+    }
+
+    .socials {
+        padding-top: 6px;
+    }
+
+    .peter {
+        width: 100px;
+    }
+
+    .peter img {
+        width: 100px;
+    }
+
+    .peter h5 {
+        font-size: 14px;
+    }
+
+    .peter p {
+        font-size: 10px;
+    }
+
+    .peter .socials .facebook {
+        width: 13px;
+        height: 13px;
+    }
+
+    .peter .socials .twiter {
+        width: 13px;
+        height: 13px;
+    }
+
+    .peter .socials .in {
+        width: 13px;
+        height: 13px;
+    }
+
+    .robert {
+        width: 100px;
+    }
+
+    .robert img {
+        width: 100px;
+    }
+
+    .robert h5 {
+        font-size: 14px;
+    }
+
+    .robert p {
+        font-size: 10px;
+    }
+
+    .robert .socials .facebook {
+        width: 13px;
+        height: 13px;
+    }
+
+    .robert .socials .twiter {
+        width: 13px;
+        height: 13px;
+    }
+
+    .robert .socials .in {
+        width: 13px;
+        height: 13px;
+    }
+
+    .dina {
+        width: 100px;
+    }
+
+    .dina img {
+        width: 100px;
+    }
+
+    .dina h5 {
+        font-size: 14px;
+    }
+
+    .dina p {
+        font-size: 10px;
+    }
+
+    .dina .socials .twiter {
+        width: 13px;
+        height: 13px;
+    }
+
+    .dina .socials .be {
+        width: 13px;
+        height: 13px;
+    }
+
+    .dina .socials .blackBall {
+        width: 13px;
+        height: 13px;
+    }
+
+    .dina .socials .inst {
+        width: 13px;
+        height: 13px;
+    }
+
+    footer a {
+        display: none;
+    }
+}
+
+@media (max-width: 393px) {
+    .adres {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .our-team {
+        display: none;
+    }
+
+    .carousel h1 {
+        font-size: 36px;
+    }
+
+    .carousel p {
+        font-size: 14px;
+    }
+
+    .our_works {
+        font-size: 14px;
+    }
+
+    .second-main-img h2 {
+        font-size: 25px;
+        padding-top: 64px;
+        padding-bottom: 75px;
+    }
+
+    .logo-div-second p {
+        font-size: 12px;
+        padding-top: 34px;
+        padding-bottom: 33px;
+    }
+}
