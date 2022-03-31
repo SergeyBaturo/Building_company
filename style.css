@@ -172,7 +172,7 @@ nav .menu {
     font-size: 16px;
     margin-bottom: 6px;
     padding-top: 58px;
-    width: 299px;
+    width: auto;
     text-align: left;
 }
 
@@ -181,7 +181,7 @@ nav .menu {
     font-size: 16px;
     margin-bottom: 6px;
     padding-top: 58px;
-    width: 299px;
+    width: auto;
     text-align: left;
 }
 
@@ -190,7 +190,7 @@ nav .menu {
     font-size: 16px;
     margin-bottom: 6px;
     padding-top: 58px;
-    width: 299px;
+    width: auto;
     text-align: left;
 }
 
@@ -537,6 +537,26 @@ footer .adres {
     }
 }
 
+@media (max-width: 800px) {
+    .carousel h1 {
+        font-size: 64px;
+        margin: auto;
+        width: auto;
+    }
+
+    .research {
+        width: 220px;
+    }
+
+    .build {
+        width: 220px;
+    }
+
+    .optimaze {
+        width: 220px;
+    }
+}
+
 @media (max-width: 768px) {
     .carousel h1 {
         font-size: 64px;
@@ -557,7 +577,123 @@ footer .adres {
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 712px) {
+    .research {
+        width: 196px;
+    }
+
+    .build {
+        width: 196px;
+    }
+
+    .optimaze {
+        width: 196px;
+    }
+
+    .peter {
+        width: 170px;
+    }
+
+    .peter img {
+        width: 170px;
+    }
+
+    .peter h5 {
+        font-size: 15px;
+    }
+
+    .peter p {
+        font-size: 11px;
+    }
+
+    .peter .socials .facebook {
+        width: 17px;
+        height: 17px;
+    }
+
+    .peter .socials .twiter {
+        width: 17px;
+        height: 17px;
+    }
+
+    .peter .socials .in {
+        width: 17px;
+        height: 17px;
+    }
+
+    .robert {
+        width: 170px;
+    }
+
+    .robert img {
+        width: 170px;
+    }
+
+    .robert h5 {
+        font-size: 15px;
+    }
+
+    .robert p {
+        font-size: 11px;
+    }
+
+    .robert .socials .facebook {
+        width: 17px;
+        height: 17px;
+    }
+
+    .robert .socials .twiter {
+        width: 17px;
+        height: 17px;
+    }
+
+    .robert .socials .in {
+        width: 17px;
+        height: 17px;
+    }
+
+    .dina {
+        width: 170px;
+    }
+
+    .dina img {
+        width: 170px;
+    }
+
+    .dina h5 {
+        font-size: 15px;
+    }
+
+    .dina p {
+        font-size: 11px;
+    }
+
+    .dina .socials .twiter {
+        width: 17px;
+        height: 17px;
+    }
+
+    .dina .socials .be {
+        width: 17px;
+        height: 17px;
+    }
+
+    .dina .socials .blackBall {
+        width: 17px;
+        height: 17px;
+    }
+
+    .dina .socials .inst {
+        width: 17px;
+        height: 17px;
+    }
+
+    footer a {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
     nav {
         display: flex;
         justify-content: space-between;
@@ -604,119 +740,115 @@ footer .adres {
     }
 
     .peter {
-        width: 100px;
+        width: 150px;
     }
 
     .peter img {
-        width: 100px;
+        width: 150px;
     }
 
     .peter h5 {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .peter p {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .peter .socials .facebook {
-        width: 13px;
-        height: 13px;
+        width: 17px;
+        height: 17px;
     }
 
     .peter .socials .twiter {
-        width: 13px;
-        height: 13px;
+        width: 17px;
+        height: 17px;
     }
 
     .peter .socials .in {
-        width: 13px;
-        height: 13px;
+        width: 17px;
+        height: 17px;
     }
 
     .robert {
-        width: 100px;
+        width: 150px;
     }
 
     .robert img {
-        width: 100px;
+        width: 150px;
     }
 
     .robert h5 {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .robert p {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .robert .socials .facebook {
-        width: 13px;
-        height: 13px;
+        width: 17px;
+        height: 17px;
     }
 
     .robert .socials .twiter {
-        width: 13px;
-        height: 13px;
+        width: 17px;
+        height: 17px;
     }
 
     .robert .socials .in {
-        width: 13px;
-        height: 13px;
+        width: 17px;
+        height: 17px;
     }
 
     .dina {
-        width: 100px;
+        width: 150px;
     }
 
     .dina img {
-        width: 100px;
+        width: 150px;
     }
 
     .dina h5 {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .dina p {
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .dina .socials .twiter {
-        width: 13px;
-        height: 13px;
+        width: 17px;
+        height: 17px;
     }
 
     .dina .socials .be {
-        width: 13px;
-        height: 13px;
+        width: 17px;
+        height: 17px;
     }
 
     .dina .socials .blackBall {
-        width: 13px;
-        height: 13px;
+        width: 17px;
+        height: 17px;
     }
 
     .dina .socials .inst {
-        width: 13px;
-        height: 13px;
-    }
-
-    footer a {
-        display: none;
+        width: 17px;
+        height: 17px;
     }
 }
 
-@media (max-width: 393px) {
+@media (max-width: 480px) {
     .adres {
+        display: none;
+    }
+
+    .our-team {
         display: none;
     }
 }
 
 @media (max-width: 375px) {
-    .our-team {
-        display: none;
-    }
-
     .carousel h1 {
         font-size: 36px;
     }
